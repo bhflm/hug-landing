@@ -2,7 +2,7 @@
 
 import React, { useEffect } from 'react';
 
-const AnimatedCanvas = ({ className }) => {
+const AnimatedCanvas = () => {
   useEffect(() => {
     // Canvas initialization and animation code
     let canvas = document.getElementById('main');
@@ -72,7 +72,7 @@ const AnimatedCanvas = ({ className }) => {
   }, []);
 
   return (
-    <div className={className}>
+    <div className="ground">
       <canvas id="main"></canvas>
     </div>
   );

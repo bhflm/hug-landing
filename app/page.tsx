@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="flex flex-row min-h-screen bg-green-100">
       <div className="flex max-h">
-        <AnimatedCanvas className={"bottom-0 z-100"} />
+        <AnimatedCanvas />
       </div>
     <div key="1" className="w-full dark:bg-green-900">
       <header className="flex items-center justify-between p-6">
