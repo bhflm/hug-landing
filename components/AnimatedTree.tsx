@@ -9,8 +9,12 @@ const AnimatedCanvas = ({ className }) => {
     let context = canvas.getContext('2d');
 
     function draw(time) {
+
       let h = canvas.height = canvas.offsetHeight;
       let w = canvas.width = canvas.offsetWidth;
+
+      console.log('h: ', h);
+      console.log('w: ', w);
 
       context.lineWidth = 3;
       context.lineCap = 'round';
